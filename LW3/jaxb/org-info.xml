@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<organization id="O01">
+    <organizationName>AutoMarket</organizationName>
+    <address>MINSK, Nezavisimosti Ave 1</address>
+    <departments>
+        <department>
+            <departmentNumber>D01</departmentNumber>
+            <departmentName>CENTRAL SHOWROOM</departmentName>
+            <location>MINSK</location>
+            <cars>
+                <car id="C01">
+                    <brand>Toyota</brand>
+                    <model>Camry</model>
+                    <year>2020</year>
+                    <price>85000.0</price>
+                    <mileage>42000</mileage>
+                </car>
+                <car id="C02">
+                    <brand>BMW</brand>
+                    <model>X5</model>
+                    <year>2016</year>
+                    <price>210000.0</price>
+                    <mileage>118000</mileage>
+                </car>
+                <car id="C03">
+                    <brand>Kia</brand>
+                    <model>Rio</model>
+                    <year>2022</year>
+                    <price>55000.0</price>
+                    <mileage>15000</mileage>
+                </car>
+            </cars>
+        </department>
+        <department>
+            <departmentNumber>D02</departmentNumber>
+            <departmentName>EAST SHOWROOM</departmentName>
+            <location>GOMEL</location>
+            <cars>
+                <car id="C04">
+                    <brand>Volkswagen</brand>
+                    <model>Polo</model>
+                    <year>2019</year>
+                    <price>45000.0</price>
+                    <mileage>67000</mileage>
+                </car>
+                <car id="C05">
+                    <brand>Hyundai</brand>
+                    <model>Tucson</model>
+                    <year>2021</year>
+                    <price>70000.0</price>
+                    <mileage>28000</mileage>
+                </car>
+                <car id="C06">
+                    <brand>Lada</brand>
+                    <model>Vesta</model>
+                    <year>2017</year>
+                    <price>60000.0</price>
+                    <mileage>45000</mileage>
+                </car>
+            </cars>
+        </department>
+    </departments>
+</organization>

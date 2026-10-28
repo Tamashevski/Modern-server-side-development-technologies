@@ -1,0 +1,37 @@
+[
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "price": 85000.0,
+    "mileage": 42000
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2016,
+    "price": 210000.0,
+    "mileage": 118000
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "year": 2022,
+    "price": 450000.0,
+    "mileage": 15000
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "year": 2019,
+    "price": 55000.0,
+    "mileage": 67000
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "year": 2021,
+    "price": 75000.0,
+    "mileage": 28000
+  }
+]
