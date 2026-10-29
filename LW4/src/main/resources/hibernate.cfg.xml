@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/Modern-server-side-development-technologies-LW4</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">1</property>
+
+        <!-- Сессия привязывается к потоку: getCurrentSession() возвращает одну и ту же сессию
+             до commit/rollback, после чего она закрывается автоматически -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Таблицы создаёт скрипт DBinitialize.sql, Hibernate только сверяет схему с моделями -->
+        <property name="hibernate.hbm2ddl.auto">validate</property>
+
+        <!-- Показывать SQL, который генерирует Hibernate (видно решение проблемы n+1) -->
+        <property name="show_sql">false</property>
+        <property name="format_sql">true</property>
+    </session-factory>
+</hibernate-configuration>
